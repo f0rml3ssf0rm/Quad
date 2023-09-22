@@ -57,9 +57,9 @@ def fwd_fr_hip():
 
 def fwd_fr_knee():
     time.sleep(0.5)
-    kit.servo[5].angle = 45
-    time.sleep(0.3)
     kit.servo[5].angle = 0
+    time.sleep(0.3)
+    kit.servo[5].angle = 45
 
 
 # FRONT LEFT LEG
@@ -90,7 +90,7 @@ def fwd_br_hip():
 def fwd_br_knee():
     kit.servo[9].angle = 45
     time.sleep(0.2)
-    kit.servo[9].angle = 0
+    kit.servo[9                                                                                                                                                                                          ].angle = 0
     time.sleep(0.2)
 
 
@@ -135,8 +135,8 @@ if __name__ == '__main__':
 
         # BACK LEFT LEG
 
-        kit.servo[5].angle = 0
-        kit.servo[5].angle = 0
+        kit.servo[5].angle = 45
+        kit.servo[5].angle = 45
 
 
         # FRONT RIGHT LEG
