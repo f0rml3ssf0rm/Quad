@@ -49,57 +49,57 @@ def distance():
 # FRONT RIGHT LEG
 
 def fwd_fr_hip():
-    kit.servo[7].angle = 60
+    kit.servo[0].angle = 60
     time.sleep(0.5)
-    kit.servo[7].angle = 0
+    kit.servo[0].angle = 0
     time.sleep(0.5)
 
 
 def fwd_fr_knee():
-    kit.servo[15].angle = 45
+    kit.servo[1].angle = 45
     time.sleep(0.2)
-    kit.servo[15].angle = 0
+    kit.servo[1].angle = 0
     time.sleep(0.2)
 
 
 # FRONT LEFT LEG
 
 def fwd_fl_hip():
-    kit.servo[3].angle = 0
+    kit.servo[4].angle = 0
     time.sleep(0.5)
-    kit.servo[3].angle = 90
+    kit.servo[4].angle = 90
     time.sleep(0.5)
 
 
 def fwd_fl_knee():
     time.sleep(0.5)
-    kit.servo[11].angle = 0
+    kit.servo[5].angle = 0
     time.sleep(0.3)
-    kit.servo[11].angle = 45
+    kit.servo[5].angle = 45
 
 
 # BACK RIGHT LEG
 
 def fwd_br_hip():
-    kit.servo[2].angle = 90
+    kit.servo[8].angle = 90
     time.sleep(0.5)
-    kit.servo[2].angle = 0
+    kit.servo[8].angle = 0
     time.sleep(0.5)
 
 
 def fwd_br_knee():
     time.sleep(0.5)
-    kit.servo[14].angle = 45
+    kit.servo[9].angle = 45
     time.sleep(0.3)
-    kit.servo[14].angle = 0
+    kit.servo[9].angle = 0
 
 
 # BACK LEFT LEG
 
 def fwd_bl_hip():
-    kit.servo[1].angle = 90
+    kit.servo[12].angle = 90
     time.sleep(0.5)
-    kit.servo[1].angle = 0
+    kit.servo[12].angle = 0
     time.sleep(0.5)
 
 
